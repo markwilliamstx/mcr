@@ -15,5 +15,5 @@ import time
 
 def hello():
 	print 'Hello World'
-	sleep (30)
+	time.sleep (30)
 hello()
