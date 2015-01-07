@@ -3,7 +3,7 @@ import time
 import RPi.GPIO as GPIO
 
 # Set the pin numbering mode
-GPIO.cleanup()
+#GPIO.cleanup() when is this needed?
 GPIO.setmode(GPIO.BCM)
 
 #name the pin
